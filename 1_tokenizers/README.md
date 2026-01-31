@@ -2,6 +2,9 @@
 
 This module explores the fundamental building blocks of Large Language Models (LLMs): **Tokenizers**. It covers the implementation of tokenizers from scratch, as well as the usage of industry-standard libraries like Google's SentencePiece and Hugging Face's `tokenizers`.
 
+**Kaggle Notebook:** [Tokenizers from Scratch](https://www.kaggle.com/code/huseyincenik/tokenizers)
+
+
 ## 📂 Content
 
 The main notebook `tokenizers.ipynb` covers the following topics:
