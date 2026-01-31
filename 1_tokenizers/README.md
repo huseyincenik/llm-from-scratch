@@ -20,8 +20,8 @@ graph LR
     A[Raw Text] --> B(Normalization);
     B --> C(Pre-tokenization);
     C --> D{Model Logic};
-    D -- Word/Match -- E[Token Matching];
-    D -- Subword -- F[BPE / WordPiece];
+    D -- "Word/Match" --> E[Token Matching];
+    D -- "Subword" --> F[BPE / WordPiece];
     E --> G(Post-Processing);
     F --> G;
     G --> H[Token IDs];
